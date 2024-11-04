@@ -1,0 +1,26 @@
+/*css cho xem-mon-an.php*/
+.hinhmonan img{ max-width: 100%; border-radius: 10px;}
+.tt_gia{ color: red; font-weight: bold;}
+.tt_nut{ padding: 10px 0;}
+.tt_nut input{ width: 50px;}
+.tt_nut button {border-radius: 10px; margin-left: 20px;}
+.tt_loai a{ text-decoration: none;}
+.tt_mota p{ text-align: justify; line-height: 40px;}
+.danhgia .nhapdanhgia{ width: 100%; height: auto; margin-top: 10px;}
+.danhgia button{float: right; margin-right: 5px;}
+.danhgia button:hover{background-color: gray;}
+.danhgia .tt_danhgia{ padding-top: 10px;}
+.tt_danhgia .avt{ border-radius: 50%; border: 2px solid black;}
+.tt_danhgia .nd_danhgia{ text-align: justify; margin-left: 35px;}
+.monan{ max-width: 30%;border: 1px solid black; border-radius: 10px; margin-left: 20px; margin-top: 20px; transition: background-color 0.5s ease, box-shadow 0.5s ease; transition: transform 0.5s ease; }
+.monan:hover{ box-shadow: 5px 5px 15px -5px #000000; transform: scale(1.1);}
+.monan_hinh{ margin-top: 5px;}
+.monan_hinh img{ width: 100%; border-radius: 10px; transition: transform 0.5s ease;}
+.monan:hover .monan_hinh img {transform: scale(1.1);}
+.monan_nd{ padding-top: 10px; padding-bottom: 5px;}
+.monan_ten{ text-align: center; color: blue; font-weight: bold;}
+.monan_mota{ text-align: justify; font-style: italic;}
+.monan_mota p { width: 100%; overflow: hidden;white-space: nowrap; text-overflow: ellipsis;}
+.monan_gia{ text-align: center; color: red; font-weight: bold;}
+.monan_xemthem{ text-align: center;}
+.monan_xemthem button{ border-radius: 10px;}

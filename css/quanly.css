@@ -1,0 +1,42 @@
+.chucnang{ color: black; background-color: #b9b9b9; border-radius: 10px; max-height: 238px; margin-top: 20px;}
+.chucnang li{ width: auto; height: 40px; border-top: 1px solid white; margin-left: -44px; margin-right: -12px; padding-left: 14px; list-style: none; line-height: 40px; transition: background-color 0.5s ease;}
+.chucnang li:hover { background: gray; border-radius: 10px;}
+.chucnang a{ text-decoration: none; color: black; font-weight: bold; display: block;}
+
+.timkiem{ margin-top: 10px; float: right;}
+
+#form1 {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+#txtma, #txtten, #txtmota, #txtgia, #hinhanh, #loai{
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#nut, #openmodal {
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.modal-content {
+    width: 535px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+.modal-header .close{
+    border: none;
+    background-color: white;
+    font-weight:bold;
+    font-size: 20px;
+}

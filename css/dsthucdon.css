@@ -1,0 +1,24 @@
+
+.phai{
+	width:100%;
+	height:auto;
+	background-color:transparent !important;
+}
+.phai a .button{
+    width:50px;
+	height:20px;
+	background-color:#B5B872;
+	text-decoration:none;
+	border:1px solid #FFF;
+}
+
+.chucnang button:hover {
+	font-size:110%;
+}
+.chucnang input:hover {
+	font-size:110%;	
+}
+
+
+/* CSS Document */
+

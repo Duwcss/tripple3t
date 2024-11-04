@@ -1,0 +1,56 @@
+/*css cho thuc-don.php*/
+.danhmuc{ color: black; background-color: #b9b9b9; border-radius: 10px; max-height: 277px; margin-top: 20px;}
+.danhmuc li{ width: auto;height: 40px; border-top: 1px solid white; margin-left: -44px; margin-right: -12px; padding-left: 14px; list-style: none; line-height: 40px; transition: background-color 0.5s ease;}
+.danhmuc li:hover { background: gray; border-radius: 10px;}
+.danhmuc a{ text-decoration: none; color: black; font-weight: bold; display: block;}
+.monan{ max-width: 30%;border: 1px solid black; border-radius: 10px; margin-left: 20px; margin-top: 20px; transition: background-color 0.5s ease, box-shadow 0.5s ease; transition: transform 0.5s ease; }
+.monan:hover{ box-shadow: 5px 5px 15px -5px #000000; transform: scale(1.1);}
+.monan_hinh{ margin-top: 5px;}
+.monan_hinh img{ width: 100%; border-radius: 10px; transition: transform 0.5s ease;}
+.monan:hover .monan_hinh img {transform: scale(1.1);}
+.monan_nd{ padding-top: 10px; padding-bottom: 5px;}
+.monan_ten{ text-align: center; color: blue; font-weight: bold;}
+.monan_mota{ text-align: justify; font-style: italic;}
+.monan_mota p { width: 100%; overflow: hidden;white-space: nowrap; text-overflow: ellipsis;}
+.monan_gia{ text-align: center; color: red; font-weight: bold;}
+.monan_xemthem{ text-align: center;}
+.monan_xemthem button{ border-radius: 10px;}
+@media (max-width: 991px){
+    .logo{ text-align: center;}
+    .login{ text-align: center;}
+    .mt-5 { margin-top: 1rem!important;}
+    .danhmuc{ max-height: 276px;}
+    .monan {max-width: 29%;}
+}
+@media (max-width: 767px){
+    .container{ max-width: 680px;}
+    .monan{ max-width: 45%;}
+    .danhmuc{ max-height: 276px;}
+}
+@media (max-width: 607px){
+    .danhmuc{ max-height: 302px;}
+}
+@media (max-width: 575px){
+    .danhmuc{ max-height: 275px;}
+}
+@media (max-width: 423px){
+    .monan{ max-width: 90%;}
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #ccc;
+    border: 1px solid black;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+.pagination a:hover {
+    background-color: gray;
+    color: black;
+}

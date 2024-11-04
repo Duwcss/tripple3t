@@ -1,0 +1,11 @@
+*{
+	margin:0 auto;
+	box-sizing:border-box;
+}
+.section{
+	width:100%;
+	height:auto;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
