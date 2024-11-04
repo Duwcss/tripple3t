@@ -1,8 +1,8 @@
 # Hệ thống quản lí bếp ăn cho doanh nghiệp
-Các chức năng chính: </br>
-- Thêm, xóa, sửa người dùng </br>
-- Thêm, xóa, sửa món ăn </br>
-- Quản lí thực đơn </br>
-- Xem thông tin suất ăn </br>
-- Đặt suất ăn </br>
+Các chức năng chính:
+- Thêm, xóa, sửa người dùng
+- Thêm, xóa, sửa món ăn
+- Quản lí thực đơn
+- Xem thông tin suất ăn
+- Đặt suất ăn
 - Thanh toán bằng VNPAY
